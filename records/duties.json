@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ob-1",
+    "site": "west-flat",
+    "kind": "monitoring",
+    "month": [
+      0,
+      36
+    ],
+    "transferable": true,
+    "minimum_covered_cents": 280000
+  },
+  {
+    "id": "ob-2",
+    "site": "east-yard",
+    "kind": "inspection",
+    "month": [
+      0,
+      24
+    ],
+    "transferable": false,
+    "minimum_covered_cents": 180000
+  },
+  {
+    "id": "take-1",
+    "obligation": "ob-1",
+    "party": "park",
+    "effective_from": 12,
+    "accepted_at": 10
+  },
+  {
+    "id": "notice-6",
+    "obligation": "ob-1",
+    "incident_month": 11,
+    "submitted_month": 13,
+    "claimed": 74000
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "old-1",
+    "covers": [
+      "ob-1",
+      "ob-2"
+    ],
+    "month": [
+      0,
+      39
+    ],
+    "amount": 580000,
+    "state": "available"
+  },
+  {
+    "id": "new-1",
+    "covers": [
+      "ob-1"
+    ],
+    "month": [
+      12,
+      30
+    ],
+    "amount": 250000,
+    "state": "lodged"
+  },
+  {
+    "id": "new-2",
+    "covers": [
+      "ob-1"
+    ],
+    "month": [
+      12,
+      38
+    ],
+    "amount": 295000,
+    "state": "confirmed",
+    "confirmation_month": 14
+  }
+]

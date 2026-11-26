@@ -1,0 +1,28 @@
+[
+  {
+    "id": "closed-1",
+    "as_of": 12,
+    "actual_old_balance": 508000
+  },
+  {
+    "id": "withdrawal-1",
+    "source": "old-1",
+    "against": "ob-2",
+    "cents": 72000,
+    "state": "executed",
+    "received_at": 13
+  },
+  {
+    "id": "return-1",
+    "source": "old-1",
+    "cents": 120000,
+    "state": "requested",
+    "received_at": 14
+  },
+  {
+    "id": "dispute-1",
+    "claim": "notice-6",
+    "state": "pending_review",
+    "month": 14
+  }
+]
